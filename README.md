@@ -1,40 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# INFORMAÇÕES GERAIS
 
-## Getting Started
+O site de cupcakes foi desenvolvido a fim de cumprir os requisitos de aprovação da matéria Projeto Integrador Transdisciplinar em Engenharia de Software II – Turma 001 e implementar os conhecimentos adquiridos até o presente momento. 
+Onde foi criado uma aplicação de celular na qual os usuários podem navegar entre as páginas e fazer uma compra fictícia. 
 
-First, run the development server:
+## TECNOLOGIAS EMPREGADAS
 
+Foi utilizado Next.js com algumas funcionalidades de Node.js para a estrutura de navegação, a renderização de páginas no lado do servidor e toda a lógica da aplicação (backend). 
+
+No frontend, foram empregados o HTML, CSS, JavaScript e TypeScript para criar uma interface de usuário interativa, garantindo uma experiência eficiente e moderna para os usuários. 
+
+O banco de dados foi implementado em MySQL, para armazenar e gerenciar as informações da aplicação. A escolha se deu por sua robustez, escalabilidade e alta performance em ambientes web. 
+
+## INSTALAÇÕES NECESSÁRIAS
+
+- Visual Studio Code, editor de código 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+https://code.visualstudio.com 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js, programa para rodar a aplicação  
+```bash
+https://nodejs.org 
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Next.js, programa para rodar a aplicação  
+```bash
+npm install next
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Swiper, para utilizar a função do banner no projeto 
+```bash
+npm install swiper
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- SVGR, para utilizar a extensão svg no projeto 
+```bash
+npm i -D @svgr/webpack
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Cookies, para capturar os cookies do client e do server 
+```bash
+npm i cookies-next
+```
 
-## Learn More
+## PASSO-A-PASSO DE COMO RODAR O SITE LOCALMENTE 
 
-To learn more about Next.js, take a look at the following resources:
+Após preparar o ambiente com as instalações necessárias que foram descritas anteriormente.  
+Navegue até o diretório cupcakes e dê o seguinte comando <npm run dev>. 
+Será gerado um link para a abertura de um browser, cole o endereço do site de cupcakes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+http://localhost:3000/cupcakes146/login
+```
+Direcionamento para a Tela de Login do site. 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+http://localhost:3000/cupcakes146
+```
+Direcionamento para a Tela Home do site
 
-## Deploy on Vercel
+## FERRAMENTAS UTILIZADAS 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Software de editor de diagramas Dia, utilizado no diagrama UML 
+- Software GIMP, utilizado para tratar as imagens do site de cupcakes 
+- Google Fonts, utilizado para fazer o download da fonte do projeto 
+- BrowserStack, utilizado para testar o frontend e o backend 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## INFORMAÇÕES EXTRAS
+Verificar a subpasta de DOCUMENTAÇÃO dentro da pasta Planejamento 
