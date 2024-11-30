@@ -50,12 +50,12 @@ Navegue até o diretório cupcakes e dê o seguinte comando <npm run dev>.
 Será gerado um link para a abertura de um browser, cole o endereço do site de cupcakes:
 
 ```bash
-http://localhost:3000/cupcakes146/login
+http://localhost:3000/
 ```
 Direcionamento para a Tela de Login do site. 
 
 ```bash
-http://localhost:3000/cupcakes146
+http://localhost:3000/
 ```
 Direcionamento para a Tela Home do site
 

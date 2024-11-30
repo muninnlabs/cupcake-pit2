@@ -84,7 +84,7 @@ const Checkout = (data: Props) => {
   return (
     <div className= {styles.container}>
       <Head>
-        <title>Sacola | {data.tenant.name}</title>
+        <title>Carro de compras | {data.tenant.name}</title>
       </Head>
 
       <Header

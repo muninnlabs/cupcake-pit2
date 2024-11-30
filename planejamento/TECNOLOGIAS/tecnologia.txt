@@ -1,0 +1,9 @@
+# Tecnologias
+- NextJS (com SSR)
+- NodeJS
+- MySQL (banco de dados)
+- API em RESTful
+- TypeScript
+- JavaScript
+- HTML
+- CSS

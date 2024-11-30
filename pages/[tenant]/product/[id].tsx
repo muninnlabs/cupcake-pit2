@@ -99,7 +99,7 @@ const Products = (data: Props) => {
             <div className={styles.buttonArea}>
                 <Button
                     color={data.tenant.mainColor}
-                    label="Adicionar a sacola"
+                    label="Adicionar ao carro de compras"
                     onClick={handleAddToCart}
                     fill
                 />

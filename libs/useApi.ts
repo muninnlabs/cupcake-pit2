@@ -22,12 +22,12 @@ const TEMPORARYorder: Order = {
     userid:'123',
     shippingAddress: {
         id: 2,
-        street: "Rua das Margaridas",
-        number: `200`,
+        street: "Rua de Valinor",
+        number: `100`,
         cep: '99999999',
-        city:'São Paulo',
-        neighborhood: 'Paraíso',
-        state: 'SP'
+        city:'Terra media',
+        neighborhood: 'Valinor',
+        state: 'TM'
     },
     shippingPrice: 3.00,
     paymentType: 'card',
@@ -49,7 +49,7 @@ export const useApi = (tenantSlug: string) => ({
             case 'home':
                 return {
                     slug: 'home',
-                    name: 'home',
+                    name: 'Cupcake Store',
                     mainColor: '#8B008B',
                     secondColor: '#FFF'
                 }
@@ -104,12 +104,12 @@ export const useApi = (tenantSlug: string) => ({
         for (let i = 0; i < 4; i++) {
             addresses.push({
                 id: i + 1,
-                street: 'Rua das Margaridas',
+                street: "Rua de Valinor",
                 number: `${i + 1}00`,
-                cep:'999999999',
-                city: 'São Paulo',
-                neighborhood: 'Santana',
-                state: 'SP',
+                cep: '99999999',
+                city:'Terra media',
+                neighborhood: 'Valinor',
+                state: 'TM'
             });
         }
         return addresses;
@@ -118,12 +118,12 @@ export const useApi = (tenantSlug: string) => ({
     getUserAddress: async (addressid: number) => {
         let address: Address = {
             id: addressid,
-            street: 'Rua das Margaridas',
+            street: "Rua de Valinor",
             number: `${addressid}00`,
-            cep:'999999999',
-            city: 'São Paulo',
-            neighborhood: 'Santana',
-            state: 'SP',
+            cep: '99999999',
+            city:'Terra media',
+            neighborhood: 'Valinor',
+            state: 'TM'
         }
         return address;
 

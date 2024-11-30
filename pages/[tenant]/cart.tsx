@@ -62,7 +62,7 @@ const Cart = (data: Props) => {
   const [shippingPrice, setShippingPrice] = useState(0);
   const [shippingTime, setShippingTime] = useState(0);
   const handleShippingCalc = () => {
-    setShippingAddress('Rua das Margaridas, 200');
+    setShippingAddress('Rua das Valinor, 100');
     setShippingPrice(3);
     setShippingTime(20);
   }
@@ -84,13 +84,13 @@ const Cart = (data: Props) => {
   return (
     <div className= {styles.container}>
       <Head>
-        <title>Sacola | {data.tenant.name}</title>
+        <title>Carro de compras | {data.tenant.name}</title>
       </Head>
 
       <Header
         backHref={`/${data.tenant.slug}`}
         color={data.tenant.mainColor}
-        title="Sacola"
+        title="Carro de compras"
       />
       <div className={styles.productsQuantity}>{cart.length} {cart.length === 1 ? 'item' : 'itens'}</div>
       <div className={styles.productsList}>
